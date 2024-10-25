@@ -1,7 +1,4 @@
-<title>GAN for Cat Image Generation</title>
-</head>
-<body>
-    <h1>Generative Adversarial Network (GAN) for Cat Image Generation</h1>
+<h1>Generative Adversarial Network (GAN) for Cat Image Generation</h1>
 
     <h2>Table of Contents</h2>
     <ol>
@@ -51,32 +48,31 @@
     </p>
 
     <h2 id="model-architecture">Model Architecture</h2>
-    <p>
-        The GAN consists of two main components:
-    </p>
-    <ul>
-        <li><strong>Generator:</strong> Takes random noise as input and generates images.</li>
-        <li><strong>Discriminator:</strong> Takes images (both real and generated) as input and outputs a probability 
-        indicating whether the image is real or fake.</li>
-    </ul>
+<p>
+The GAN consists of two main components:
+</p>
+<ul>
+<li><strong>Generator:</strong> Takes random noise as input and generates images.</li>
+<li><strong>Discriminator:</strong> Takes images (both real and generated) as input and outputs a probability 
+indicating whether the image is real or fake.</li>
+</ul>
 
-    <h2 id="training-process">Training Process</h2>
-    <p>
-        The training process involves alternating between training the discriminator and the generator:
-    </p>
-    <ol>
-        <li>Train the discriminator on a batch of real images and a batch of generated images.</li>
-        <li>Train the generator using feedback from the discriminator.</li>
-    </ol>
-    <p>Repeat this process for a specified number of epochs.</p>
+<h2 id="training-process">Training Process</h2>
+<p>
+The training process involves alternating between training the discriminator and the generator:
+</p>
+<ol>
+<li>Train the discriminator on a batch of real images and a batch of generated images.</li>
+<li>Train the generator using feedback from the discriminator.</li>
+</ol>
+<p>Repeat this process for a specified number of epochs.</p>
 
-    <h2 id="results">Results</h2>
-    <p>
+<h2 id="results">Results</h2>
+<p>
         After training, generated images can be visualized. The quality of the images should improve over epochs. 
         Save and display generated images using Matplotlib.
     </p>
+ <h2 id="license">License</h2>
+ <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
 
-    <h2 id="license">License</h2>
-    <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
-</body>
-</html>
+
