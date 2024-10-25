@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GAN for Cat Image Generation</title>
+<title>GAN for Cat Image Generation</title>
 </head>
 <body>
     <h1>Generative Adversarial Network (GAN) for Cat Image Generation</h1>
